@@ -73,10 +73,13 @@ a {
 
 .Portfolio {
   background-color: #ECEFF1;
+
 }
 
 .Portfolio-content {
+  margin: 0 auto;
   text-align: center;
+  width: 920px;
 }
 
 .Portfolio-heading {
@@ -84,7 +87,7 @@ a {
 	display: inline-block;
 }
 
-.Portfolio-content h2 {
+ h2 {
   font-size: 32px;
   color: #000000;
   padding-bottom: 8px;
@@ -92,10 +95,10 @@ a {
   text-align: center; /* 文字の中央寄せ */
 }
 
-.Portfolio-heading::before {
+h2::before {
   background-color: #EC715F; /* 線の色 */
   border-radius: 5px; /* 線の両端を丸く */
-  bottom: -29px; /* 線の位置 */
+  bottom: -3px; /* 線の位置 */
   content: "";
   height: 3px; /* 線の高さ */
   left: 50%; /* 線の中央寄せ */
@@ -104,15 +107,80 @@ a {
   width: 70px; /* 線の長さ */
 }
 
-.Portfolio-content p {
+.content p {
   padding: 33px 0 30px 0;
 }
 
 .Portfolio-images {
   display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
 }
 
 .Portfolio-image {
   width: 300px;
   height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.Portfolio-image:nth-child(1) {
+  background-image: url(sketch.jpg);
+  margin: 0 10px 10px 0;
+}
+
+.Portfolio-image:nth-child(2) {
+  background-image: url(websuku.png);
+  margin: 0 10px 10px 0;
+}
+
+.Portfolio-image:nth-child(3) {
+  background-image: url(write.jpg);
+  margin: 0 0 10px 0;
+}
+
+.Portfolio-image:nth-child(4) {
+  background-image: url(webcamp.png);
+  margin: 0 10px 0 0;
+}
+
+.Portfolio-image:nth-child(5) {
+  background-image: url(talk.jpg);
+  margin: 0 10px 0 0;
+}
+
+.Portfolio-image:nth-child(6) {
+  background-image: url(webcamp-mother.png);
+  margin: 0 0 0 0;
+}
+
+.Feature-content {
+  padding:90px 0 90px 0;
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Feature-Strengths {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Strength {
+  width: 320px;
+  padding-right: 10px;
+}
+
+.Feature-Strengths:nth-child(last) {
+  padding-right: 0;
+}
+
+i {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #000;
+  padding: 10px 0;
 }
