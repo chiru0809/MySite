@@ -168,11 +168,16 @@ h2::before {
 
 .Strength {
   width: 320px;
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
-.Feature-Strengths:nth-child(last) {
-  padding-right: 0;
+.Strength:nth-child(3) {
+  margin-right: 0;
+}
+
+.Feature-message {
+  text-align: left
+  padding: 0;
 }
 
 i {
