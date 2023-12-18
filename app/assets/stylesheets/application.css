@@ -179,7 +179,7 @@ h2::before {
   text-align: left
 }
 
-i {
+.Strength i {
   margin: 15px 0 17px 0;
   font-size: 60px;
 }
@@ -206,16 +206,14 @@ h3 {
 
 .Profile-main {
   display: flex;
-  /*justify-content: center;*/
 }
 
 .icon {
   width: 512px;
+  text-align: center;
 }
 
-.icon-image {
-  background-image: url(my-icon.jpg);
-  background-position: center;
+.icon-image img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
@@ -230,4 +228,49 @@ h4 {
 .message p {
   margin-bottom: 20px;
   text-align: left
+}
+
+.Contact {
+  padding: 90px 0;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Contact-main {
+  display: flex;
+}
+
+.Contact-main h4 {
+  text-align: left;
+}
+
+.links {
+  width: 400px;
+  text-align: center;
+}
+
+.sns {
+  width: 400px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons h4 {
+  /*display: inline-block;*/
+  /*text-align: left;*/
+}
+
+.icons i {
+  font-size: 50px;
+}
+
+.icons i:nth-child(3) {
+  margin: 0 20px;
+}
+
+.mail {
+  margin-bottom: 20px;
 }
