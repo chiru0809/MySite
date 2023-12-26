@@ -40,7 +40,7 @@ header {
   display: inline-block;
 }
 
-a {
+.nav-item a {
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -247,7 +247,6 @@ h4 {
 
 .links {
   width: 400px;
-  margin: 0 auto;
 }
 
 .links a {
@@ -255,8 +254,14 @@ h4 {
   text-decoration: underline;
 }
 
-.icons {
+.link {
   text-align: center;
+  padding-left: 34%;
+}
+
+.icons {
+  text-align: left;
+  padding-left: 29%;
 }
 
 .icons h4 {
@@ -273,13 +278,25 @@ h4 {
 }
 
 .sns {
-  text-align: center;
+  text-align: left;
   width: 400px;
 }
 
 .mail {
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
+}
+
+.main a {
+  margin: 0;
+}
+
+.tel {
+  text-align: left;
+}
+
+.tel a {
+  margin: 0;
 }
 
 footer {
